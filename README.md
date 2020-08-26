@@ -1,22 +1,9 @@
-# deep-q-learning
+## Motivation
 
-Introduction to Making a Simple Game AI with Deep Reinforcement Learning
+To gain an introduction to implementing Reinforcement Learning in code, I read the book 'Deep Reinforcement Learning in Action' by Brandon Brown, Alexander Zai. Following up on this book, I started with my first Reinforcement Learning project - teaching an agent to balance a stick for the longest time possible.
 
+The simplicity of the problem statement and the relative ease in understanding and coding this acted as the driving factors for me.
 
-
-![animation](./assets/animation.gif)
-
-Minimal and Simple Deep Q Learning Implemenation in Keras and Gym. Under 100 lines of code!
-
-The explanation for the `dqn.py` code is covered in the blog article
-[https://keon.io/deep-q-learning/](https://keon.io/deep-q-learning/)
+## Source
 
 
-I made minor tweaks to this repository such as `load` and `save` functions for convenience.
-
-I also made the `memory` a deque instead of just a list.
-This is in order to limit the maximum number of elements in the memory.
-
-
-The training might be unstable for `dqn.py`. This problem is mitigated in `ddqn.py`.
-I'll cover `ddqn` in the next article.
